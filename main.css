@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  width: 375px;
+  height: 815px;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+#main-container {
+  width: 330px;
+  height: 1380px;
+}
+#main-container .tittle-container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+#main-container .tittle-container strong {
+  font-size: 25.5px;
+  color: hsl(229deg, 6%, 66%);
+  font-weight: 200;
+}
+#main-container .tittle-container h1 {
+  font-size: 26px;
+  color: hsl(234deg, 12%, 34%);
+  margin-bottom: 12px;
+}
+#main-container .tittle-container p {
+  color: hsl(229deg, 6%, 66%);
+  font-weight: 400;
+}
+#main-container .card-container .info-container {
+  background-color: #fff;
+  padding: 22px 15px 15px 27px;
+  margin: 25px 0;
+  border-radius: 6px;
+  border-top: 6px solid;
+  box-shadow: -1px 6px 20px 0px hsl(229deg, 6%, 66%);
+}
+#main-container .card-container .info-container h2 {
+  color: hsl(234deg, 12%, 34%);
+  font-size: 21px;
+  font-weight: 600;
+}
+#main-container .card-container .info-container p {
+  margin-top: 6px;
+  margin-bottom: 30px;
+  color: hsl(229deg, 6%, 66%);
+  font-size: 14px;
+}
+#main-container .card-container .info-container img {
+  margin-left: 13.1em;
+  margin-bottom: 5px;
+}
+#main-container .info-container:nth-child(1) {
+  border-top-color: hsl(180deg, 62%, 55%);
+}
+#main-container .info-container:nth-child(2) {
+  border-top-color: hsl(0deg, 78%, 62%);
+}
+#main-container .info-container:nth-child(3) {
+  border-top-color: hsl(34deg, 97%, 64%);
+}
+#main-container .info-container:nth-child(4) {
+  border-top-color: hsl(212deg, 86%, 64%);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 1440px) {
+  #main-container {
+    width: 1440px;
+    height: auto;
+  }
+  #main-container .tittle-container {
+    text-align: center;
+  }
+  #main-container .tittle-container strong {
+    font-size: 30.5px;
+    color: hsl(229deg, 6%, 66%);
+    font-weight: 200;
+  }
+  #main-container .tittle-container h1 {
+    font-size: 31px;
+    color: hsl(234deg, 12%, 34%);
+    margin-bottom: 12px;
+  }
+  #main-container .tittle-container p {
+    color: hsl(229deg, 6%, 66%);
+    font-weight: 400;
+    font-size: 1.05em;
+    width: 56ch;
+    margin-left: 24.3em;
+  }
+  #main-container .card-container .info-container {
+    width: 390px;
+    height: 285px;
+    position: absolute;
+    background-color: #fff;
+    padding: 22px 15px 15px 27px;
+    border-radius: 6px;
+    border-top: 6px solid;
+    box-shadow: -1px 6px 20px 0px hsl(229deg, 6%, 66%);
+  }
+  #main-container .card-container .info-container h2 {
+    color: hsl(234deg, 12%, 34%);
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #main-container .card-container .info-container p {
+    margin-top: 6px;
+    margin-bottom: 30px;
+    color: hsl(229deg, 6%, 66%);
+    font-size: 16px;
+  }
+  #main-container .card-container .info-container img {
+    margin-left: 16.3em;
+    margin-top: 2.5em;
+  }
+  #main-container .info-container:nth-child(1) {
+    left: 6.2em;
+    top: 29em;
+    border-top-color: hsl(180deg, 62%, 55%);
+  }
+  #main-container .info-container:nth-child(2) {
+    left: 32.1em;
+    margin-top: 0;
+    border-top-color: hsl(0deg, 78%, 62%);
+  }
+  #main-container .info-container:nth-child(3) {
+    left: 32.1em;
+    top: 38.5em;
+    border-top-color: hsl(34deg, 97%, 64%);
+  }
+  #main-container .info-container:nth-child(4) {
+    left: 58em;
+    top: 29em;
+    border-top-color: hsl(212deg, 86%, 64%);
+  }
+  .attribution {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 55em;
+  }
+  .attribution a {
+    color: hsl(228deg, 45%, 44%);
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$veryDarkBlue: hsl(234, 12%, 34%);
+$grayishBlue: hsl(229, 6%, 66%);
+$veryLightGray: hsl(0, 0%, 98%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    width: 375px;
+    height: 815px;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh;
+    align-items: center;
+    background-color: $veryLightGray;    
+}
+#main-container {
+    width: 330px;
+    height: 1380px;
+    .tittle-container {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 70px;
+        strong {
+            font-size: 25.5px;
+            color: $grayishBlue;
+            font-weight: 200;
+        }
+        h1 {
+            font-size: 26px;
+            color: $veryDarkBlue;
+            margin-bottom: 12px;
+        }
+        p {
+            color: $grayishBlue;
+            font-weight: 400;
+        }
+       
+    }
+    .card-container .info-container {
+        background-color: #fff;
+        padding: 22px 15px 15px 27px;
+        margin: 25px 0;
+        border-radius: 6px;
+        border-top: 6px solid;
+        box-shadow: -1px 6px 20px 0px $grayishBlue;
+        h2 {
+            color: $veryDarkBlue;
+            font-size: 21px;
+            font-weight: 600;
+        } 
+        p {
+            margin-top: 6px;
+            margin-bottom: 30px;
+            color: $grayishBlue;
+            font-size: 14px;
+        }
+        img {
+            margin-left: 13.1em;
+            margin-bottom: 5px;
+        }
+    }
+    .info-container:nth-child(1) {
+        border-top-color: $cyan;
+    }
+    .info-container:nth-child(2) {
+        border-top-color: $red;
+    }
+    .info-container:nth-child(3) {
+        border-top-color: $orange;
+    }
+    .info-container:nth-child(4) {
+        border-top-color: $blue;
+    }
+}
+
+.attribution { font-size: 12px; text-align: center; margin-bottom: 20px ;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1440px) {
+    #main-container {
+    width: 1440px;
+    height: auto;
+    .tittle-container {
+        text-align: center;
+        strong {
+            font-size: 30.5px;
+            color: $grayishBlue;
+            font-weight: 200;
+        }
+        h1 {
+            font-size: 31px;
+            color: $veryDarkBlue;
+            margin-bottom: 12px;
+        }
+        p {
+            color: $grayishBlue;
+            font-weight: 400;
+            font-size: 1.05em;
+            width: 56ch;
+            margin-left: 24.3em;
+        }   
+    }
+    .card-container .info-container {
+        width: 390px;
+        height: 285px;
+        position: absolute;
+        background-color: #fff;
+        padding: 22px 15px 15px 27px;
+        border-radius: 6px;
+        border-top: 6px solid;
+        box-shadow: -1px 6px 20px 0px $grayishBlue;
+        h2 {
+            color: $veryDarkBlue;
+            font-size: 24px;
+            font-weight: 600;
+        } 
+        p {
+            margin-top: 6px;
+            margin-bottom: 30px;
+            color: $grayishBlue;
+            font-size: 16px;
+        }
+        img {
+            margin-left: 16.3em;
+            margin-top: 2.5em;
+        }
+    }
+    .info-container:nth-child(1) {
+        left: 6.2em;
+        top: 29em; ;
+        border-top-color: $cyan;
+    }
+    .info-container:nth-child(2) {
+        left: 32.1em;
+        margin-top: 0;
+        border-top-color: $red;
+    }
+    .info-container:nth-child(3) {
+        left: 32.1em;
+        top: 38.5em;
+        border-top-color: $orange;
+    }
+    .info-container:nth-child(4) {
+        left: 58em;
+        top: 29em;
+        border-top-color: $blue;
+    }
+}
+.attribution { font-size: 12px; text-align: center; position: relative; top: 55em;}
+.attribution a { color: hsl(228, 45%, 44%); }
+}
